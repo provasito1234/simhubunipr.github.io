@@ -19,8 +19,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the results
-  document.getElementById("countdown").innerHTML="Mission begins in<br><b>" + days + "</b> days <b>" + hours + "</b> hours and <b>"
-  + minutes + "</b> minutes";
+  document.getElementById("countdown").innerHTML="SIMHUB sarà attivo tra<br><b>" + days + "</b> giorni <b>" + hours + "</b> ore e <b>"
+  + minutes + "</b> minuti";
 
   //If the count down is over, write some text 
   if (distance < 0) {
