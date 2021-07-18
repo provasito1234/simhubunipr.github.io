@@ -25,7 +25,7 @@ var x = setInterval(function() {
   //If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "Touchdown, we are on Mars! See you in 2 weeks!";
+    document.getElementById("countdown").innerHTML = "Benvenuti alla Notte dei Ricercatori!";
   }
 }, 1000);
 
