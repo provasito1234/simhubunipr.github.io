@@ -1,1 +1,1 @@
-# Testing website for SIMHUB website
+# Test environemnt for SIMHUB website
